@@ -6,8 +6,21 @@ Lung cancer is one of the leading causes of cancer-related deaths worldwide. Ear
 ## Dataset
 The dataset used for this project is the Lung Nodule Analysis (LUNA) dataset. It contains a large number of chest X-ray images annotated with labels indicating the presence or absence of lung nodules. This dataset is publicly available and widely used in the medical imaging community for research purposes.
 
-### Data Description
-- **Images**: High-resolution chest X-ray images.
-- **Labels**: Binary labels indicating the presence (1) or absence (0) of lung nodules.
-- **Split**: The dataset is typically split into training, validation, and test sets to evaluate the performance of the model.
+## Features
 
+- **Data Preprocessing**: Image resizing, normalization, and augmentation.
+- **Model Training**: CNN classifier with ensemble algorithms for better accuracy.
+- **Evaluation**: Model accuracy, precision, recall, and F1 score metrics.
+- **Deployment**: Jupyter Notebook format for ease of modification and scalability.
+
+## Prerequisites
+
+To run this project, you will need:
+
+- Python 3.8+
+- Jupyter Notebook
+- Required Python libraries (install via `requirements.txt`)
+
+## Results
+The project includes accuracy and F1 score to measure the model's performance.
+Visualization of training and validation loss/accuracy trends.
